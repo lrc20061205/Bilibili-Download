@@ -1,4 +1,4 @@
-#Bilibili Download 
+# Bilibili Download 
 
 ----------
 
@@ -13,7 +13,7 @@
 
 ----------
 
-#开始
+# 开始
 
 此脚本可以下载bilibili视频与动漫
 此脚本可以自动解析动漫还是视频，所以直接把链接粘贴即可
@@ -34,7 +34,7 @@
 
 ----------
 
-#主要参数
+# 主要参数
 
     __main__.py URL 参数
 
@@ -51,7 +51,7 @@
 
 ----------
 
-#必要软件与库
+# 必要软件与库
 
 - 安装 colorama 
 
@@ -70,9 +70,9 @@ pip install colorama
 
 
 
-#运行过程
+# 运行过程
 
-##下载视频
+## 下载视频
 
     >py __main__.py https://www.bilibili.com/video/BV1wC41137NL -c ./cookie.txt
     [14:36:25][Info]合集名:
@@ -91,7 +91,7 @@ pip install colorama
     [14:36:37][Info]合并
     [14:36:37][Tip]./saved/不是，兄弟 【表情包大赏】.mp4 已经下载
 
-##下载动漫
+## 下载动漫
 
     >py __main__.py https://www.bilibili.com/bangumi/play/ep98603 -c ./cookie.txt
     [15:43:11][Tip]这个Bangumi有 14 个视频 使用 -p 下载播放列表
@@ -114,9 +114,9 @@ pip install colorama
 
 ----------
 
-#获取Cookie信息
+# 获取Cookie信息
 
-##Edge浏览器
+## Edge浏览器
 
 在B站首页>按F12打开开发者工具>切换到网络选项卡>按F5刷新>点击www.bilibili.com的请求>选择标头>请求标头>Cookie
 
@@ -124,11 +124,11 @@ pip install colorama
 
 ----------
 
-#编码与分辨率
+# 编码与分辨率
 
-##分辨率
+## 分辨率
 |ID|分辨率|
-|-
+|----|-------|
 |16|360P|
 |32|480P|
 |48|720P|
@@ -142,10 +142,10 @@ pip install colorama
 |126|杜比视界|
 |127|8K|
 
-##编码格式*
+## 编码格式*
 
 |ID|格式
-|-
+|-|-|
 |7|AV1|
 |12|HEVC|
 |13|AVC|
@@ -153,20 +153,21 @@ pip install colorama
 
 ----------
 
-#音效
+# 音效
 
 |ID|音效|
-|-
+|-|-|
 |h|Hi-Res|
 |d|杜比音效(下载杜比视界的视频时，建议指定此音效)|
 |n|普通音效|
+
 注：不指定音效即为自动选择
 
 ----------
 
-#其它
+# 其它
 
-##作者留言:
+## 作者留言:
 
     有些视频在名称里面会加转义字符
     比如 www.bilibili.com/bangumi/play/ss6400,这个bangumi在json里面是这样写标题的:“第一折\t危险！迷之荒野” 
@@ -174,7 +175,7 @@ pip install colorama
     系统命名不能带这类的符号
     B站程序员扣工资(ˉ▽ˉ；)...
 
-##Bug反馈或给予建议
+## Bug反馈或给予建议
 
     E-maill:rengcheng_luo@outlook.com
 
